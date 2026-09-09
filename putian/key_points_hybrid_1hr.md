@@ -23,23 +23,25 @@ Course description: Finding and gathering data from public and private databases
 
 ## Concise Semester Schedule
 
-| Week | Mode | Instructor focus | Student demo type | Assignment / project role |
-|---|---|---|---|---|
-| 1 | In person | Course launch, Colab setup, AI-use policy, project expectations | Orientation artifact | Weekly artifact or participation/setup check |
-| 2 | Online | First notebook workflow, prompts, generated code review, file output | Assignment demo | Weekly artifact: cleaned mini CSV |
-| 3 | Online | Data structures for data gathering | Assignment demo | Weekly artifact: two data representations |
-| 4 | In person | Public dataset profiling, metadata, quality, provenance | Bigger in-person demo assignment | Larger assignment: dataset profile and source evaluation |
-| 5 | Online | Text/web mining from short records | Assignment demo | Weekly artifact: extraction and tests |
-| 6 | Online | Small API collection and responsible web access | Assignment demo | Weekly artifact: row-limited API collector |
-| 7 | In person | Query design, joins, SQL/pandas validation | Bigger in-person demo assignment | Larger assignment: source pitch and validated query |
-| 8 | Online | Storage alternatives and model choice | Assignment demo | Weekly artifact: two storage representations |
-| 9 | Online | Storage/retrieval reasoning and tiny timing demos | Assignment demo | Weekly artifact: index/lookup explanation |
-| 10 | In person | Warehouse design, grain, facts, dimensions, ETL | Bigger in-person demo assignment | Larger assignment: mini warehouse / ETL design checkpoint |
-| 11 | Online | Batch-style notebook processing | Assignment demo | Weekly artifact: small batch processing output |
-| 12 | No class | Thanksgiving break | None | No new assignment |
-| 13 | Online | Reliability, retries, logging, idempotence, consistency concepts | Project-risk or makeup demo | Weekly artifact: final readiness/risk check |
-| 14 | In person or online | Facilitate final demonstrations | Final project demo | Groups 1-2 present once; 30-35 minutes per group |
-| 15 | In person or online | Facilitate final demonstrations and synthesis | Final project demo | Groups 3-4 present once; 30-35 minutes per group |
+Calendar assumption: Week 1 meets on Thursday, September 10, 2026, and the course meets every Thursday.
+
+| Week | Date | Mode | Instructor focus | Student demo type | Assignment / project role |
+|---|---|---|---|---|---|
+| 1 | Sep 10, 2026 | In person | Course launch, Colab setup, AI-use policy, project expectations | Orientation artifact | Weekly artifact or participation/setup check |
+| 2 | Sep 17, 2026 | Online | First notebook workflow, prompts, generated code review, file output | Assignment demo | Weekly artifact: cleaned mini CSV |
+| 3 | Sep 24, 2026 | Online | Data structures for data gathering | Assignment demo | Weekly artifact: two data representations |
+| 4 | Oct 1, 2026 | In person | Public dataset profiling, metadata, quality, provenance | Bigger in-person demo assignment | Larger assignment: dataset profile and source evaluation |
+| 5 | Oct 8, 2026 | Online | Text/web mining from short records | Assignment demo | Weekly artifact: extraction and tests |
+| 6 | Oct 15, 2026 | Online | Small API collection and responsible web access | Assignment demo | Weekly artifact: row-limited API collector |
+| 7 | Oct 22, 2026 | In person | Query design, joins, SQL/pandas validation | Bigger in-person demo assignment | Larger assignment: source pitch and validated query |
+| 8 | Oct 29, 2026 | Online | Storage alternatives and model choice | Assignment demo | Weekly artifact: two storage representations |
+| 9 | Nov 5, 2026 | Online | Storage/retrieval reasoning and tiny timing demos | Assignment demo | Weekly artifact: index/lookup explanation |
+| 10 | Nov 12, 2026 | In person | Warehouse design, grain, facts, dimensions, ETL | Bigger in-person demo assignment | Larger assignment: mini warehouse / ETL design checkpoint |
+| 11 | Nov 19, 2026 | Online | Batch-style notebook processing | Assignment demo | Weekly artifact: small batch processing output |
+| 12 | Nov 26, 2026 | No class | Thanksgiving break | None | No new assignment |
+| 13 | Dec 3, 2026 | Online | Reliability, retries, logging, idempotence, consistency concepts | Project-risk or makeup demo | Weekly artifact: final readiness/risk check |
+| 14 | Dec 10, 2026 | In person or online | Facilitate final demonstrations | Final project demo | Groups 1-2 present once; 30-35 minutes per group |
+| 15 | Dec 17, 2026 | In person or online | Facilitate final demonstrations and synthesis | Final project demo | Groups 3-4 present once; 30-35 minutes per group |
 
 Recommended assignment count: 12 weekly artifacts before the final project if Week 1 is graded: 1 setup/orientation artifact, 8 smaller online-week individual artifacts, and 3 larger individual in-person demo assignments in Weeks 4, 7, and 10. The larger in-person assignment is the weekly artifact for that week expanded for demonstration; it is not an extra assignment on top of a small weekly task. If Week 1 is participation/setup only, count 11 graded weekly artifacts. Add 1 final group project demonstrated once in Week 14 or Week 15. The final group project requires slides, a runnable Colab/program demo, and visible participation from every group member. Week 7, Week 10, and Week 13 already function as project-preparation checkpoints and should not be counted again as separate project milestones unless the instructor wants more grading.
 
@@ -783,21 +785,21 @@ In-person presentation expectations:
 - Use grading lightly for weekly demonstrations: completion, clarity, technical reasoning, verification evidence, and responsiveness to questions.
 
 Type of student demonstration by in-person week:
-- Week 1: orientation artifact. Students demonstrate a tiny Colab/Jupyter setup result and a possible data interest.
-- Week 4: larger individual in-person demo assignment. Students demonstrate a dataset profile and source evaluation from a small public CSV/JSON extract.
-- Week 7: larger individual in-person demo assignment and project-preparation demo. Students demonstrate a source pitch and one validated query/prompt idea that may become part of the project.
-- Week 10: larger individual in-person demo assignment and project checkpoint demo. Students demonstrate a draft ETL/schema/storage design for critique; this is formative, not final.
-- Week 14: final project demo for Groups 1-2.
-- Week 15: final project demo for Groups 3-4.
+- Week 1, Sep 10, 2026: orientation artifact. Students demonstrate a tiny Colab/Jupyter setup result and a possible data interest.
+- Week 4, Oct 1, 2026: larger individual in-person demo assignment. Students demonstrate a dataset profile and source evaluation from a small public CSV/JSON extract.
+- Week 7, Oct 22, 2026: larger individual in-person demo assignment and project-preparation demo. Students demonstrate a source pitch and one validated query/prompt idea that may become part of the project.
+- Week 10, Nov 12, 2026: larger individual in-person demo assignment and project checkpoint demo. Students demonstrate a draft ETL/schema/storage design for critique; this is formative, not final.
+- Week 14, Dec 10, 2026: final project demo for Groups 1-2, if held in person.
+- Week 15, Dec 17, 2026: final project demo for Groups 3-4, if held in person.
 
-| In-person week | Presentation/discussion purpose | Student artifact | Exit item |
-|---|---|---|---|
-| Week 1 | Instructor explains course structure, AI-assisted coding expectations, Colab workflow, and what counts as verification. Students briefly introduce data interests as setup for later project choices. | Tiny source-list notebook row plus saved/reloaded CSV check | One project idea or one question about data gathering |
-| Week 4 | Larger individual in-person demo assignment: students explain a public dataset before analyzing it deeply. | Dataset profile and source evaluation: preview, source URL, metadata, field/type summary, quality check, limitation, and stewardship concern | One quality issue and one responsible-use concern |
-| Week 7 | Larger individual in-person demo assignment: students connect source selection to query design and early project feasibility. | Source pitch and validated query: data question, two query prompts, one SQL/pandas result, and row-count/join verification | Revised project question and storage/query choice |
-| Week 10 | Larger individual in-person demo assignment: students turn warehouse concepts into a formative project checkpoint. | Mini warehouse / ETL design checkpoint: star schema or table sketch, grain, ETL sketch, prompt trail, verification check, and revision | One schema or ETL revision based on peer feedback |
-| Week 14 | Formal final presentations for Groups 1-2. Focus on evidence: data acquisition, AI prompt trail, student revisions, storage, cleaning/mining, verification, and provenance. Each member demonstrates a defined part. | Final project slide deck plus Colab/program demo | Engagement questions on technical clarity |
-| Week 15 | Formal final presentations for Groups 3-4, followed by course synthesis. Focus on lessons learned, limits, reliability, privacy, and responsible use. Each member demonstrates a defined part. | Final project slide deck plus Colab/program demo | Course synthesis discussion on strongest design decisions and remaining risks |
+| In-person week | Date | Presentation/discussion purpose | Student artifact | Exit item |
+|---|---|---|---|---|
+| Week 1 | Sep 10, 2026 | Instructor explains course structure, AI-assisted coding expectations, Colab workflow, and what counts as verification. Students briefly introduce data interests as setup for later project choices. | Tiny source-list notebook row plus saved/reloaded CSV check | One project idea or one question about data gathering |
+| Week 4 | Oct 1, 2026 | Larger individual in-person demo assignment: students explain a public dataset before analyzing it deeply. | Dataset profile and source evaluation: preview, source URL, metadata, field/type summary, quality check, limitation, and stewardship concern | One quality issue and one responsible-use concern |
+| Week 7 | Oct 22, 2026 | Larger individual in-person demo assignment: students connect source selection to query design and early project feasibility. | Source pitch and validated query: data question, two query prompts, one SQL/pandas result, and row-count/join verification | Revised project question and storage/query choice |
+| Week 10 | Nov 12, 2026 | Larger individual in-person demo assignment: students turn warehouse concepts into a formative project checkpoint. | Mini warehouse / ETL design checkpoint: star schema or table sketch, grain, ETL sketch, prompt trail, verification check, and revision | One schema or ETL revision based on peer feedback |
+| Week 14 | Dec 10, 2026 | Formal final presentations for Groups 1-2, if held in person. Focus on evidence: data acquisition, AI prompt trail, student revisions, storage, cleaning/mining, verification, and provenance. Each member demonstrates a defined part. | Final project slide deck plus Colab/program demo | Engagement questions on technical clarity |
+| Week 15 | Dec 17, 2026 | Formal final presentations for Groups 3-4, if held in person, followed by course synthesis. Focus on lessons learned, limits, reliability, privacy, and responsible use. Each member demonstrates a defined part. | Final project slide deck plus Colab/program demo | Course synthesis discussion on strongest design decisions and remaining risks |
 
 Instructor facilitation notes:
 - Treat Week 1 as orientation/setup, Weeks 4, 7, and 10 as larger individual in-person demo assignments, and Weeks 14 and 15 as final demo slots, with each group presenting once for 30-35 minutes.
