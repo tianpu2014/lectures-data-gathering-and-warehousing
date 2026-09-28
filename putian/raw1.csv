@@ -1,0 +1,8 @@
+request_id,opened_at,building_code,agency_code,category,priority,status,estimated_cost
+WO-1001 ,2026-09-01, LIB , FAC , hvac ,high, open ,1250.00
+WO-1002,09/02/2026,SCI,FAC,Electrical, medium,In Progress,825
+WO-1003,2026-09-03,,FAC,plumbing,LOW,closed,unknown
+WO-1004,not recorded,ADM,SEC,Access Control,high,OPEN,450
+WO-1005,2026-09-05,LIB,IT,network,Medium,in_progress,300.50
+WO-1006,2026-09-06,SCI,FAC,HVAC,high,Closed,2100
+WO-1007,2026-09-07,ADM,FAC,plumbing, low,pending,
